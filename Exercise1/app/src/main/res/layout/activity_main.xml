@@ -13,9 +13,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/mainTitle"
-        android:layout_margin="@dime/activity_main_text_margin"
-        android:textSize="@dimen/activity_main_text_size"
+        android:text="5 things you didn't know about:"
+        android:layout_margin="20dp"
+        android:textSize="35sp"
         android:id="@+id/title"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
@@ -33,7 +33,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_start"
+        android:text="Start"
         android:id="@+id/button"
         android:layout_below="@id/imgGoogle"
         android:onClick="startClicked"

@@ -21,9 +21,6 @@ public class ViewPagerFragment extends Fragment {
 
     };
 
-     public static final String imagePosition = "imagePosition";
-
-
     public static ViewPagerFragment newInstance(int position,int imageId,String text)
     {
         ViewPagerFragment myFragment = new ViewPagerFragment();

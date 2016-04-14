@@ -3,7 +3,4 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="view_pager_background">#eee</color>
-    <color name="fragment_text_color">#FFFFFF</color>
-    <color name="fragment_text_background">#aaa</color>
 </resources>

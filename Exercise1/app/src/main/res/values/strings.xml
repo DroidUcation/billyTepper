@@ -1,10 +1,3 @@
 <resources>
     <string name="app_name">Exercise1</string>
-    <string name="mainTitle">5 things you didn't know about:</string>
-    <string name="google1"></string>
-    <string name="google2"></string>
-    <string name="google3"></string>
-    <string name="google4"></string>
-    <string name="google5"></string>
-    <string name="btn_start">Start</string>
 </resources>
