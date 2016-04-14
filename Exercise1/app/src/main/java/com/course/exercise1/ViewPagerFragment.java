@@ -21,13 +21,17 @@ public class ViewPagerFragment extends Fragment {
 
     };
 
+    private static final String impagePosition  = "imagePosition";
+    private  static  final  String imageID = "ImageID";
+    private  static  final  String  txtTitle = "txtTitle";
+
     public static ViewPagerFragment newInstance(int position,int imageId,String text)
     {
         ViewPagerFragment myFragment = new ViewPagerFragment();
         Bundle bundle = new Bundle();
-        bundle.putInt("imagePosition",position);
-        bundle.putInt("imageId",imageId);
-        bundle.putString("txtTitle",text);
+        bundle.putInt(impagePosition,position);
+        bundle.putInt(imageID, imageId);
+        bundle.putString(txtTitle, text);
         myFragment.setArguments(bundle);
 
         return  myFragment;
@@ -40,8 +44,8 @@ public class ViewPagerFragment extends Fragment {
         ViewGroup rootView = (ViewGroup) inflater.inflate(
                 R.layout.fragment_layout, container, false);
 
-        int imageId = getArguments().getInt("imageId");
-        int position = getArguments().getInt("imagePosition");
+        int imageId = getArguments().getInt(imageID;
+        int position = getArguments().getInt(impagePosition);
         String text = getArguments().getString("txtTitle");
 
         ImageView iv  = (ImageView)rootView.findViewById(R.id.myIv);

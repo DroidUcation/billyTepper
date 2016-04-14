@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Exercise1</string>
+    <string name="txt_activity_main_title">5 things you didnt know about</string>
+    <string name="btn_start">Start</string>
+    <string name="fragment_google1">"1.The originally name was Gogle and accidently turned into Google</string>
+    <string name="fragment_google2">2.Google spends more than 100,000,000$ a year for food for their employes</string>
+    <string name="fragment_google3">3.Google workers are allowed to bring their dogs to work, and are given food and water</string>
+    <string name="fragment_google4">4.Google sends hot air balloons with Antennas to countries without Internet Antennas such as Africa</string>
+    <string name="fragment_google5">5.Even though you have seen this logo a thousand times a day you still have no idea what the color of the second G in Google without going back to page 1... :)</string>
 </resources>
