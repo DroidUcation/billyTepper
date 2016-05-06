@@ -16,6 +16,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".ViewPagerActivity"></activity>
+        <provider
+            android:name="com.course.exercise1.db.exercise1Provider"
+            android:authorities="com.course.exercise1.db.exercise1Provider"
+            />
     </application>
 
 </manifest>

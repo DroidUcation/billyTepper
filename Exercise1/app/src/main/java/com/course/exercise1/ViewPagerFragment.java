@@ -44,9 +44,9 @@ public class ViewPagerFragment extends Fragment {
         ViewGroup rootView = (ViewGroup) inflater.inflate(
                 R.layout.fragment_layout, container, false);
 
-        int imageId = getArguments().getInt(imageID;
+        int imageId = getArguments().getInt(imageID);
         int position = getArguments().getInt(impagePosition);
-        String text = getArguments().getString("txtTitle");
+        String text = getArguments().getString(txtTitle);
 
         ImageView iv  = (ImageView)rootView.findViewById(R.id.myIv);
         iv.setImageResource(imageId);
